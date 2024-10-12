@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <script src="https://kit.fontawesome.com/609a41c362.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="scripts/theme.js"></script>
+    <script defer src="scripts/possibleOperations.js"></script>
+    <script defer src="scripts/fillingLogic.js"></script>
+</head>
+<body>
+    <header>
+        <h1>personal calculator</h1>
+    </header>
+    <main>
+        <div class="calculator">
+            <div class="display">
+                <div class="previous"><p class="previousInput"></p></div>
+                <div class="current"><p class="currentInput"></p></div>
+            </div>
+            <div class="buttons">
+                <button id="delete"><i class="fa-solid fa-c"></i></button>
+                <button id="deleteOne"><i class="fa-solid fa-delete-left"></i></button>
+                <button data-sing="%"><i class="fa-solid fa-percent"></i></button>
+                <button data-sing="/"><i class="fa-solid fa-divide"></i></button>
+                <button data-number="7" class="number">7</button>
+                <button data-number="8" class="number">8</button>
+                <button data-number="9" class="number">9</button>
+                <button data-sing="x"><i class="fa-solid fa-xmark"></i></button>
+                <button data-number="4" class="number">4</button>
+                <button data-number="5" class="number">5</button>
+                <button data-number="6" class="number">6</button>
+                <button data-sing="-"><i class="fa-solid fa-minus"></i></button>
+                <button data-number="1" class="number">1</button>
+                <button data-number="2" class="number">2</button>
+                <button data-number="3" class="number">3</button>
+                <button data-sing="+"><i class="fa-solid fa-plus"></i></button>
+                <button class="mode">
+                    <i  class="fa-solid fa-sun sun"></i> 
+                    <i  class="fa-solid fa-moon moon"></i> 
+                </button>
+                <button data-number="0" class="number">0</button>
+                <button data-number="." class="number">.</button>
+                <button id="equal" ><i class="fa-solid fa-equals"></i></button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
